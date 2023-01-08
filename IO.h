@@ -1,6 +1,6 @@
 /*****************************************************************************************
 /* File: IO.h
-/* Desc: Class for handling inpung & drawing, it uses SDL for the rendering. Change the methods of this class
+/* Desc: Class for handling input & drawing, it uses SFML for the rendering. Change the methods of this class
 /*       in order to use a different renderer
 /*****************************************************************************************/
 
