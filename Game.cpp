@@ -192,7 +192,7 @@ void Game::DrawTextNext()
 
 void Game::DrawControls()
 {
-	int board_height_pixels = this->board_->GetYPosInPixels(this->board_->kBoardHeight);
+	int board_height_pixels = this->board_->GetYPosInPixels(Board::kBoardHeight);
 	// align with score
 	int x = Game::kScoreX;
 	int y = board_height_pixels - Game::kScoreY - Game::kFontSize * 2 - Game::kLineSpace;
